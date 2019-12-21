@@ -1,0 +1,227 @@
+@font-face{font-family:kuffi;src:url(../fonts/DroidKufi-Regular.ttf)}
+body{font-family:'kuffi';font-weight:normal;font-style:normal}
+.hvr-grow{display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 1px rgba(0,0,0,0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;-webkit-transition-duration:.3s;-o-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform,-webkit-transform}
+.hvr-grow:hover,.hvr-grow:focus,.hvr-grow:active{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+.spinner{margin:100px auto 0;width:70px;text-align:center}
+.spinner>div{width:18px;height:18px;background-color:#47aaab;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}
+.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}
+.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}
+@-webkit-keyframes sk-bouncedelay{0%,80%,100%{-webkit-transform:scale(0)}
+40%{-webkit-transform:scale(1.0)}
+}@keyframes sk-bouncedelay{0%,80%,100%{-webkit-transform:scale(0);transform:scale(0)}
+40%{-webkit-transform:scale(1.0);transform:scale(1.0)}
+}.loading-overlay{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999999999;background-color:#FFF}
+.saber{width:200px;height:200px;position:absolute;left:50%;top:50%;background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px}
+.imogo{width:100%;height:100%;position:absolute;background-size:cover;left:0;top:0}
+p,span,h1,h2,h3,h4,h5,a,title{direction:rtl}
+dialog{height:200px;width:200px;background-color:#47aaab;border-radius:10px;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#FFF;border:1px solid #DDD;display:none}
+.btn1,.btn2{border-color:#FFF}
+dialog a{border-radius:20px}
+.fancybox-slide>*{border-radius:6px}
+.btn1{background-image:url('../images/appstore.png');width:163px;height:57px;display:block;margin:10% 0 5%}
+.btn2{background-image:url('../images/googleplay.png');width:163px;height:57px;display:block}
+header{background-color:#47aaab;color:#FFF;overflow:hidden;z-index:1}
+header .soto{margin:auto}
+.gogo{overflow:hidden}
+header h5{font-size:28px;line-height:1rem;font-weight:500;color:#FFF;margin-top:12px}
+header a img{margin-top:52px}
+header h1{font-size:40px;margin-top:40px}
+header p,p{font-size:19px;line-height:1.625em;font-weight:400;margin-top:15px}
+header p{margin-top:0}
+.btn{color:#47aaab;background-color:#FFF;width:300px;border-radius:50px;font-size:25px;line-height:25px;margin-top:15px;height:50px}
+.btn:hover{color:#47aaab}
+header .amgad{margin-top:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+header .amgad .first,header .amgad .third{background-image:url(../images/features1b.png);width:32%;height:572px;margin-top:39px;background-size:cover;z-index:11;position:relative;overflow:hidden}
+header .amgad .first{margin-right:-10%}
+header .amgad .third{margin-left:-10%}
+header .amgad .first .inside1,header .amgad .third .inside3{width:310px;height:486px;position:relative;top:86px;left:20px;overflow:hidden;border-radius:4px 4px 0 0}
+header .amgad .first .inside1 img{width:100%;height:100%}
+header .amgad .secound{background-image:url(../images/features2a.png);width:325px;height:611px;background-size:cover;z-index:20;position:relative;overflow:hidden}
+header .amgad .secound .inside2{width:286px;height:501px;position:relative;top:78px;left:19px;overflow:hidden;border-radius:4px}
+.section1{margin-top:100px;overflow:hidden}
+.linee{border-top:1px solid #eee;width:100%;position:relative;top:20px;margin:50px auto}
+.section1 h2{font-size:47px;line-height:3.6rem;margin-bottom:40px}
+.section1 p{font-size:19.5px;line-height:1.625em;font-family:'Avenir Next';font-weight:400;margin-bottom:30px}
+.section1 h4{font-family:'Avenir Next';font-size:20px;line-height:1.625rem;font-weight:600;color:#47aaab}
+.section1 .twomob .white{background-image:url(../images/features1b.png);height:422px;background-size:cover;position:relative;width:38%;right:-16%;margin-top:46px}
+.section1 .twomob .black{background-image:url(../images/features2a.png);height:476px;background-size:cover;position:relative;width:43%;bottom:-22px;right:-3%}
+.section1 .twomob .white .white-img{top:51px;height:319px;width:179px;left:12px;position:absolute}
+.section1 .twomob .black .black-img{top:57px;height:75.5%;width:88%;left:6%;position:absolute}
+.section1 .twomob .swsn{margin-left:9%;z-index:70}
+.section1 .twomob .afaf{z-index:40;margin-left:-20%}
+.section1 .mody{background-image:url(../images/features3-int.png);background-size:cover;width:349px;height:518px}
+.section1 .mody .finshed-img{position:relative;top:87px;left:31px;height:431px;width:291px}
+.section1 .kemo{margin-top:46px;overflow:hidden}
+.section1 .rightt{margin:auto}
+.section1 .leftt{direction:rtl;text-align:right;margin:auto}
+.lolo{overflow:hidden}
+.opop{margin-top:50px}
+.wakwak{padding:0 0 22px 1px}
+footer{background-color:#47aaab;padding:50px 0}
+footer p{color:#FFF}
+footer h3{color:#FFF;font-size:32px}
+hr{border-top:1px solid rgba(253,255,254,0.15);width:75%;margin:60px auto}
+@media(max-width :320px){h2{font-size:2.5rem;margin-bottom:29px;margin-top:30px}
+.mgh{margin-top:30px}
+header a img{margin-top:28px}
+header h5{font-size:27.5px;margin-top:13px}
+header h1{font-size:30px;line-height:1.2;margin-top:30px}
+header p{font-size:16px;margin-top:29px;line-height:1.625em}
+header .hide{display:none}
+.soto{padding:0 10px}
+.btn{width:200px;height:44px;font-size:18px;line-height:21px}
+amgad{margin-left:7PX}
+header .amgad .secound{height:131px;width:81px}
+header .amgad .secound .inside2{width:71px;height:110.5px;top:20px;left:5px;border-radius:2px 2px 0 0}
+header .amgad .first,header .amgad .third{height:112px;margin-top:19px;width:71px}
+header .amgad .first .inside1,header .amgad .third .inside3{width:62px;height:95px;top:17px;left:4px}
+.section1{text-align:center}
+.section1 .leftt{text-align:center}
+.section1 p{font-size:16px}
+.section h2{font-size:28px}
+.section1 .mody{width:226px;height:350px;margin:auto}
+.section1 .mody .finshed-img{top:56px;left:20px;height:294px;width:188px}
+footer{padding-bottom:20px}
+footer h3{font-size:17px;margin-top:0;margin-bottom:-5px;line-height:17px}
+footer .koko{font-size:16px}
+hr{margin:30px auto}
+.section1{margin-top:45px}
+.linee{margin:0 auto}
+}@media(min-width :320px) and (max-width :479px){header a img{margin-top:28px}
+header h5{font-size:27.5px;margin-top:13px}
+.soto{padding:0 10px}
+header h1{font-size:30px;margin-top:30px;margin-bottom:10px;line-height:1.2}
+header p{font-size:16px}
+.btn{width:200px;height:44px;font-size:18px;line-height:21px}
+header .amgad .secound{width:99px;height:176px}
+header .amgad .secound .inside2{width:87px;height:151.5px;top:24px;left:6px;border-radius:2px 2px 0 0}
+header .amgad .first{margin-right:-21%}
+header .amgad .third{margin-left:-21%}
+header .amgad .first,header .amgad .third{width:95px;height:160px;margin-top:16px}
+header .amgad .first .inside1,header .amgad .third .inside3{width:83px;height:137px;top:23px;left:5px}
+.section1 .leftt{text-align:center}
+.section1{text-align:center}
+.section1 p{font-size:16px}
+.section1 h2{font-size:27px}
+.section1 .mody{width:300px;height:447px;margin:auto}
+.section1 .mody .finshed-img{top:74px;left:27px;height:373px;width:249px}
+.section1 .lolo{margin-left:-4%}
+footer{padding-bottom:20px}
+footer h3{font-size:17px;margin-top:0;margin-bottom:-5px;line-height:17px}
+footer p{font-size:16px}
+hr{margin:30px auto}
+.hamdos{margin-bottom:37px}
+.linee{margin:0 auto}
+.section1{margin-top:45px}
+.linee{margin:0 auto}
+}@media(min-width :480px) and (max-width :767px){.soto{margin:auto}
+header h5{font-size:19.5px;margin-top:8px}
+header h1{font-size:27.3px;margin-top:26px;margin-bottom:0}
+header a img{margin-top:36px}
+header p{font-size:19.5px;margin-top:8px;margin-bottom:3px}
+.btn{width:200px;height:38px;font-size:17px;line-height:17px}
+header .amgad .secound{height:319px;width:193px}
+header .amgad .secound .inside2{top:48px;height:271px;width:168px}
+header .amgad .first,header .amgad .third{height:280px;width:173px}
+header .amgad .first .inside1,header .amgad .third .inside3{height:237px;top:43px}
+header .amgad .first{margin-right:-12%}
+header .amgad .third{margin-left:-12%}
+.section1 p{font-size:19.5px}
+.section1{text-align:center;margin-top:53px}
+.section1 h2{margin-top:26px;font-size:33px;margin-bottom:20px}
+.section1 .leftt{text-align:center}
+.section1 .mody{width:383px;height:625px;margin:auto auto 23px auto}
+.section1 .mody .finshed-img{top:97px;left:35px;height:528px;width:322px}
+.section1 .kemo{margin-top:15px;margin-bottom:30px}
+.linee{margin:0 auto}
+.zaza{margin-bottom:51px}
+footer{padding-bottom:20px}
+hr{margin:50px auto 20px}
+footer h3{font-size:22px;margin-bottom:-5px}
+footer .koko{font-size:19px}
+}@media(min-width :260px) and (max-width :359px){.section1 .twomob .black{height:276px;width:136px}
+.section1 .twomob .black .black-img{top:33px;height:209px;width:119px;left:9px}
+.section1 .twomob .white{height:242px;width:100px;right:-9%}
+.section1 .twomob .white .white-img{top:30px;height:182px;width:103px;left:7px}
+.section1 h2{font-size:28px}
+.section1 .twomob .afaf{margin-left:-13%;width:119px}
+.section1 .twomob .swsn{margin-left:-5%}
+.hamdos{padding:0}
+}@media(min-width :360px) and (max-width :479px){.section1 .twomob .black{width:164px;height:338px}
+.section1 .twomob .black .black-img{top:41px;height:254px;width:145px;left:10px}
+.section1 .twomob .white{height:274px;width:126px}
+.section1 .twomob .white .white-img{top:34px;height:209px;width:117px;left:8px}
+.section1 .twomob .afaf{height:277px;width:135px}
+}@media(min-width :317px) and (max-width :360px){header .amgad .first{margin-right:-15%}
+header .amgad .third{margin-left:-15%}
+}@media(max-width :480){h2{font-size:2.5rem;margin-bottom:29px}
+}@media(min-width :480px) and (max-width :576px){header .amgad .first{margin-right:-15%}
+header .amgad .third{margin-left:-15%}
+header .amgad .secound{height:270px;width:152px}
+header .amgad .secound .inside2{top:38px;height:231.5px;width:133px;left:9px}
+header .amgad .first,header .amgad .third{height:231px;width:130px}
+header .amgad .first .inside1,header .amgad .third .inside3{height:222px;top:32px;left:7.5px;width:113.5px}
+.section1 .twomob .black{height:380px;width:186px}
+.section1 .twomob .black .black-img{top:46px;height:75.5%;width:88%}
+.section1 .twomob .white{width:162px;right:-14%;height:332px}
+.section1 .twomob .white .white-img{top:41px;height:252px;width:142px;left:10px}
+.section1{text-align:center}
+.section1 h2{font-size:32px;margin-bottom:26px}
+.coco{padding:0}
+.section1 .twomob .afaf{width:164px;height:334px}
+.section1 .twomob .afaf{z-index:40;margin-left:-16%}
+}@media(min-width :577px) and (max-width :767px){header .amgad .secound .inside2{left:13px}
+header .amgad .first .inside1,header .amgad .third .inside3{height:237px;top:43px;width:151px;left:10px}
+.section1 .twomob .black{height:468px;left:12px;width:231px}
+.section1 .twomob .white{height:427px}
+.section1 .twomob .white .white-img{height:322px;width:183px}
+.section1 .twomob .afaf{width:41%}
+}@media(max-width :767px){h2{margin-top:15px}
+}@media(min-width :768px) and (max-width :991px){header a img{margin-top:36px}
+header h5{font-size:19.5px;margin-top:8px}
+header h1{font-size:27.3px;margin-top:26px;margin-bottom:8px}
+header p{font-size:13px;font-size:13px;margin-bottom:2px}
+.btn{width:200px;height:38px;font-size:17px;line-height:17px}
+header .amgad .secound{height:427px;width:228px}
+header .amgad .secound .inside2{width:200px;height:352px;top:55px;left:14px}
+header .amgad .first,header .amgad .third{height:388px}
+header .amgad .first .inside1,header .amgad .third .inside3{width:194px;height:335px;top:54px;left:12px;border-radius:2px 2px 0 0}
+.section1 h2{font-size:33px;margin-bottom:20px}
+.section1 p{font-size:12px;margin-bottom:20px}
+.coco{padding:0}
+.section1 h4{font-size:13px;margin-bottom:-10px}
+.section1 .twomob .black{height:318px;width:47%}
+.section1 .twomob .black .black-img{top:38px;width:136px;left:10px}
+.section1 .twomob .white{height:260px}
+.section1 .twomob .white .white-img{top:32px;height:196px;width:111px;left:7px}
+.section1 .mody{height:340px;width:217px}
+.section1 .mody .finshed-img{top:54px;left:19px;height:286px;width:181px}
+.section1 .kemo{margin-top:21px}
+footer{padding-bottom:20px}
+hr{margin:50px auto 20px}
+footer h3{font-size:22px}
+footer .koko{font-size:13px}
+}@media(min-width :768px){.bsbs{overflow:hidden;padding:20px 0}
+}@media(min-width :992px) and (max-width :1199px){header h5{font-size:24px;margin-top:9px}
+header h1{font-size:33.5px;margin-bottom:33px;margin-top:37px}
+header a img{margin-top:45px}
+header p{font-size:15.9px;margin-top:-23px;margin-bottom:7px;line-height:1.650em}
+header .amgad .secound{width:30%;height:527px}
+header .amgad .secound .inside2{height:429px;top:68px;left:18px;width:243px}
+header .amgad .first,header .amgad .third{width:30%;height:488px}
+header .amgad .first .inside1,header .amgad .third .inside3{width:243px;height:420px;top:68px;left:16px}
+.section1 h2{font-size:40px;margin-bottom:28px}
+.section1 p{font-size:16px}
+.section1 h4{font-size:16px;margin-bottom:-10px}
+.section1 .twomob .black{height:404px;width:44%}
+.section1 .twomob .white{height:353px;width:38%}
+.section1 .twomob .black .black-img{top:49px;height:304px;width:174px;left:12px}
+.section1 .twomob .white .white-img{top:43px;height:266px;width:150px;left:10px}
+.section1 .mody{width:289px;height:459px}
+.section1 .mody .finshed-img{top:72px;left:25px;height:387px;width:245px}
+footer{padding:40px 0}
+hr{margin:70px auto 60px}
+.koko{font-size:15px}
+footer h3{font-size:26px}
+.btn{width:255px;height:44px;font-size:22px;color:#47aaab;line-height:22px}
+}

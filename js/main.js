@@ -1,0 +1,1 @@
+$(window).on("load",function(){"use strict";$("body").css("overflow","auto");$(".loading-overlay .spinner").fadeOut(1000,function(){$(".loading-overlay").fadeOut(0);});});$('.ctal').fancybox();
